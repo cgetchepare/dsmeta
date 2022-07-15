@@ -233,4 +233,11 @@ parâmetro -	{id}
 http://localhost:8080/sales/53/notification
 
 
+### Heroku
+https://git.heroku.com/dsmeta-cgetchepare.git
+
+Config Vars		Reveal Config Vars
+
+### No STS, na pasta do projeto dsmeta File > New > File
+system.properties
 
