@@ -232,12 +232,33 @@ parâmetro -	{id}
 ### Alteração ENDPOINT com parâmetro id
 http://localhost:8080/sales/53/notification
 
+### No STS, na pasta do projeto dsmeta (raiz do projeto): File > New > File e criar o arquivo system.properties
+java.runtime.version=17
 
 ### Heroku
 https://git.heroku.com/dsmeta-cgetchepare.git
 
 Config Vars		Reveal Config Vars
 
-### No STS, na pasta do projeto dsmeta File > New > File
-system.properties
+heroku -v
+
+### Realiza o login do Heroku pelo navegador
+heroku login
+[CTRL] + [C]
+
+### heroku git:remote -a <nome-do-app>
+heroku git:remote -a dsmeta-cgetchepare
+
+git remote -v
+
+heroku  https://git.heroku.com/dsmeta-cgetchepare.git (fetch)
+heroku  https://git.heroku.com/dsmeta-cgetchepare.git (push)   
+origin  git@github.com:cgetchepare/dsmeta.git (fetch)
+origin  git@github.com:cgetchepare/dsmeta.git (push)
+
+git subtree push --prefix backend heroku main
+
+https://dsmeta-cgetchepare.herokuapp.com
+
+
 
