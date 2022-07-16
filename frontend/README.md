@@ -260,5 +260,22 @@ git subtree push --prefix backend heroku main
 
 https://dsmeta-cgetchepare.herokuapp.com
 
+### Endpoints
+https://dsmeta-cgetchepare.herokuapp.com/sales
+https://dsmeta-cgetchepare.herokuapp.com/sales/53/notification
+https://dsmeta-cgetchepare.herokuapp.com/sales?minDate=2022-01-01&maxDate=2022-03-31
+
+
+### Axios e useEffect
+yarn add axios@0.27.2
+
+### Executar o projeto no frontend
+yarn dev 
+http://localhost:3000
+
+### No navegador [BD] Inspecionar
+### No modo de desenvolvimento, por padrão o useEffect roda duas vezes
+
+
 
 
