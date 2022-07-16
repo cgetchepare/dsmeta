@@ -276,6 +276,8 @@ http://localhost:3000
 ### No navegador [BD] Inspecionar
 ### No modo de desenvolvimento, por padrão o useEffect roda duas vezes
 
+.tsx  - arquivo react TS
+.ts   - script TS
 
 
 
