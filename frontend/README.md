@@ -15,11 +15,11 @@ https://start.spring.io
 ### Configurações do projeto com Spring Initializr
 Project: 		Maven Project      Language: Java      Spring Boot: 2.7.1
 Project Metadata
-Group: 			com.devsuperior
-Artifact: 		dsmeta
-Name: 			dsmeta
-Descritpion: 	Projeto da Semana Spring React Devsuperior
-Package name: 	com.devsuperior.dsmeta
+Group: 			    com.devsuperior
+Artifact: 		  dsmeta
+Name: 			    dsmeta
+Descritpion: 	  Projeto da Semana Spring React Devsuperior
+Package name:   com.devsuperior.dsmeta
 
 ### Dependências
 Spring Web (web)
@@ -293,4 +293,9 @@ Publish directory: frontend/dist
 
 ### Configurar variável de ambiente
 VITE_BACKEND_URL
-https://dsmeta-cgetchepare.herokuapp.com/
+https://dsmeta-cgetchepare.herokuapp.com
+
+
+### Após fazer o Deploy, alterar o nome do site para
+https://dsmeta-cgetchepare.netlify.app
+
