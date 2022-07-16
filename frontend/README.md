@@ -285,5 +285,12 @@ heroku login
 heroku git:remote -a dsmeta-cgetchepare
 git push heroku master
 
+### Deploy no Netlify
 
+Base directory: frontend
+Build command: yarn build
+Publish directory: frontend/dist
 
+### Configurar variável de ambiente
+VITE_BACKEND_URL
+https://dsmeta-cgetchepare.herokuapp.com/
