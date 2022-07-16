@@ -279,5 +279,11 @@ http://localhost:3000
 .tsx  - arquivo react TS
 .ts   - script TS
 
+### Update Heroku. (Primeiramente fazer o update do projeto no github)
+
+heroku login
+heroku git:remote -a dsmeta-cgetchepare
+git push heroku master
+
 
 
